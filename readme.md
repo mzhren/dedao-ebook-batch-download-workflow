@@ -2,7 +2,7 @@
 
 本项项目是基于[yann0917/dedao-dl: 得到 APP 课程下载工具，可在终端查看文章内容，可生成 PDF，音频文件，markdown 文稿，可下载电子书。](https://github.com/yann0917/dedao-dl)的脚本。通过dedao-dl工具获取得到电子书的 ID，然后通过该脚本生成下载命令。
 
-`dedao-dl-utils` 是一组用于管理和下载电子书的实用工具。包括以下步骤和脚本：
+`dedao-ebook-batch-download-workflow` 是一组用于批量下载电子书的实用工具。包括以下步骤和脚本：
 
 ## 1 访问 [得到官网](https://www.dedao.cn/) 获取电子书列表请求（HAR）
 
