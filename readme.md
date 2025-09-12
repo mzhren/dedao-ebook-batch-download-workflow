@@ -6,6 +6,8 @@
 
 ## 1 访问 [得到官网](https://www.dedao.cn/) 获取电子书列表请求（HAR）
 
+![得到电子书列表请求](images/dedao-website.webp)
+
 ## 2 将 HAR 文件转换为 JSON 文件
 
 02_har_to_json.py 脚本用于将 HAR 文件转换为 JSON 文件。使用方法如下：
@@ -19,6 +21,10 @@ python 02_har_to_json.py input.har output.json
 - `output.json`：输出的 JSON 文件路径
 
 ## 3 通过 Automa 浏览器插件将电子书添加到个人书架
+
+[【浏览器实用技巧】通过HTTP存档格式（HAR）批量获取得到电子书ID\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1ZJM2zeE9B/)
+
+![Automa 浏览器插件](images/automa.webp)
 
 ## 4 通过 Dedao-dl 工具获取电子书列表
 
